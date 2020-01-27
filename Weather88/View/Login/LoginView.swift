@@ -60,9 +60,7 @@ class LoginView: BaseController, UITextFieldDelegate, LoginDelegate {
     }
     
     func UIInitialise() {
-        self.loginButton.layer.cornerRadius = 22
-        self.loginWithGmailId.layer.cornerRadius = 22
-        self.loginButton.disableButton()
+         self.loginButton.disableButton()
         
     }
     
