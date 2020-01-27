@@ -58,7 +58,7 @@ To bind the View with ViewModel following pattern will be used: <br/>
 
 
 
-# Functionality <br/>
+# Functionalities <br/>
 1) User can sign in using :   Gmail, Touch ID, Email/Password. <br/>
 2) For First time User by Default Current GPS location is detected and weather info is fetched for that location. <br/>
 3) User can also search for a city with autocomplete feature to look for weather infomation for that particular place.<br/>
