@@ -87,11 +87,11 @@
 		18B5D4E523DAF61A00066796 /* FontAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D4DD23DAF61A00066796 /* FontAnimation.swift */; };
 		18B5D4E723DAF63D00066796 /* LendingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B5D4E623DAF63D00066796 /* LendingTextField.swift */; };
 		18C7F18823DE723A00EB2072 /* AppConfigManagerConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F18423DE723900EB2072 /* AppConfigManagerConst.swift */; };
-		18C7F19123DE79BB00EB2072 /* AppConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F18E23DE79BA00EB2072 /* AppConfigManager.swift */; };
 		18C7F19523DE7DEF00EB2072 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F19423DE7DEF00EB2072 /* LoginViewModel.swift */; };
 		18C7F19723DE7E2100EB2072 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F19623DE7E2100EB2072 /* LoginProtocol.swift */; };
 		18C7F19923DE80B600EB2072 /* DisplayAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F19823DE80B600EB2072 /* DisplayAlertController.swift */; };
 		18C7F19B23DE891E00EB2072 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F19A23DE891E00EB2072 /* String+Extension.swift */; };
+		18C7F1A323DF5DA200EB2072 /* AppConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7F1A223DF5DA200EB2072 /* AppConfigManager.swift */; };
 		18C95B5723DB07B0003B1C67 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B5623DB07B0003B1C67 /* BaseController.swift */; };
 		18C95B5A23DB137E003B1C67 /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B5923DB137E003B1C67 /* BiometricAuth.swift */; };
 		18C95B5E23DB1686003B1C67 /* InAppEnumConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C95B5D23DB1686003B1C67 /* InAppEnumConstant.swift */; };
@@ -207,11 +207,11 @@
 		18B5D4DD23DAF61A00066796 /* FontAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAnimation.swift; sourceTree = "<group>"; };
 		18B5D4E623DAF63D00066796 /* LendingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendingTextField.swift; sourceTree = "<group>"; };
 		18C7F18423DE723900EB2072 /* AppConfigManagerConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigManagerConst.swift; sourceTree = "<group>"; };
-		18C7F18E23DE79BA00EB2072 /* AppConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigManager.swift; path = "../../../../../Downloads/Visitor Management App/Visitor management app/Visitor management app/AppConfigManager/AppConfigManager.swift"; sourceTree = "<group>"; };
 		18C7F19423DE7DEF00EB2072 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		18C7F19623DE7E2100EB2072 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
 		18C7F19823DE80B600EB2072 /* DisplayAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayAlertController.swift; sourceTree = "<group>"; };
 		18C7F19A23DE891E00EB2072 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		18C7F1A223DF5DA200EB2072 /* AppConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigManager.swift; sourceTree = "<group>"; };
 		18C95B5623DB07B0003B1C67 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		18C95B5923DB137E003B1C67 /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
 		18C95B5D23DB1686003B1C67 /* InAppEnumConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppEnumConstant.swift; sourceTree = "<group>"; };
@@ -535,7 +535,7 @@
 		18C7F18323DE723900EB2072 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				18C7F18E23DE79BA00EB2072 /* AppConfigManager.swift */,
+				18C7F1A223DF5DA200EB2072 /* AppConfigManager.swift */,
 				18C7F18423DE723900EB2072 /* AppConfigManagerConst.swift */,
 			);
 			path = Managers;
@@ -942,12 +942,12 @@
 				1857A9CB23DB62D20072EE6C /* UIDevice+Extension.swift in Sources */,
 				1857A9BB23DB61B80072EE6C /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
 				18B5D4E223DAF61A00066796 /* WeakTargetProxy.swift in Sources */,
-				18C7F19123DE79BB00EB2072 /* AppConfigManager.swift in Sources */,
 				1857A9ED23DB7E2C0072EE6C /* UIButton+Extension.swift in Sources */,
 				1857A9C623DB61B80072EE6C /* NVActivityIndicatorViewable.swift in Sources */,
 				18B5D4E423DAF61A00066796 /* TweeActiveTextField.swift in Sources */,
 				18B5D4E323DAF61A00066796 /* TweeAttributedTextField.swift in Sources */,
 				186D20D623DCCD94007DAA39 /* HourlyForecastHeader.swift in Sources */,
+				18C7F1A323DF5DA200EB2072 /* AppConfigManager.swift in Sources */,
 				1857A9E123DB64D70072EE6C /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
 				1857A9E623DB64D70072EE6C /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
 				1857A9C523DB61B80072EE6C /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
