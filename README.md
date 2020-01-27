@@ -58,6 +58,21 @@ To bind the View with ViewModel following pattern will be used: <br/>
 
 
 
+# Functionality <br/>
+1) User can sign in using :   Gmail, Touch ID, Email/Password. <br/>
+2) For First time User by Default Current GPS location is detected and weather info is fetched for that location. <br/>
+3) User can also search for a city with autocomplete feature to look for weather infomation for that particular place.<br/>
+4) User can see the current Weather infomation.<br/>
+5) User can also see the next 24 hours forecast at an one hour interval.<br/>
+6) User can alsl see the next 6 days weather forecast data. <br/>
+
+
+
+
+
+
+
+
 # Data Flow diagram / Overall Architecture <br/>
 
 https://drive.google.com/file/d/1KFbmujUM0xEvsDgUEIsWmyzauTIX6S2o/view?usp=sharing
