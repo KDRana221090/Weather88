@@ -63,23 +63,7 @@ To bind the View with ViewModel following pattern will be used: <br/>
 https://drive.google.com/file/d/1KFbmujUM0xEvsDgUEIsWmyzauTIX6S2o/view?usp=sharing
 
 
-
-# Demo <br/>
-# First Time user Journey
-
-User Login using Touch Id
-https://drive.google.com/file/d/1KFbmujUM0xEvsDgUEIsWmyzauTIX6S2o/view?usp=sharing
-
-
- User Login using Gmail
-  https://drive.google.com/file/d/1KFbmujUM0xEvsDgUEIsWmyzauTIX6S2o/view?usp=sharing
-
-
-User Login using email Address and Password 
-https://drive.google.com/file/d/1KFbmujUM0xEvsDgUEIsWmyzauTIX6S2o/view?usp=sharing
-
-
-
+ 
 
 
 
