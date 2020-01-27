@@ -39,15 +39,15 @@ To bind the View with ViewModel following pattern will be used: <br/>
 
 
 
-# List Of Features
+# List Of Features <br/>
 
-	# User Module
+# User Module
 1.	Splash Screen<br/>
 2.	Sign in using email and password<br/>
 3.	Sign in using Gmail <br/>
 4.	Sign in using Touch id<br/>
 
-#	Weather Module
+# Weather Module
 1.	Fetch User’s Current Location<br/>
 2. Select a city with Auto-Complete <br/>
 3.	Show current weather status <br/>
