@@ -8,7 +8,7 @@
 
 import UIKit
 import GooglePlaces
-class WeatherViewController: BaseController {
+class WeatherViewController: UIViewController {
     
     private let spacing:CGFloat = 6.0
     
@@ -51,7 +51,6 @@ class WeatherViewController: BaseController {
     func getWeatherData() {
         weatherViewModel.customDelegate = self
         currentDay.text = weatherViewModel.currentday
-        super.showLoader(message: "Loading..")
         
         
         if let lat = AppConfigManager.shared.getData(dataKey: AppConfigManagerConst.LATTITUDE.rawValue){
@@ -74,6 +73,10 @@ class WeatherViewController: BaseController {
     }
     
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+         self.showLoader(message: "loading")
+    }
     
     
     func registerColletionViewCell() {
@@ -89,8 +92,7 @@ class WeatherViewController: BaseController {
         if(flag == true) {
             self.icon.image = UIImage(named: "000")
          } else {
-            
-            self.icon.image = UIImage(named: "moon")
+             self.icon.image = UIImage(named: "moon")
         }
       }
     
@@ -115,7 +117,7 @@ class WeatherViewController: BaseController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.reloadData()
-        super.hideLoader()
+        self.hideLoader()
         
     }
     
@@ -164,7 +166,7 @@ extension WeatherViewController: DailyForecastDelegate  {
          self.windSpeed.text = "Wind Speed\n" + weatherViewModel.WindSpeed
          self.humidity.text = "Humidity\n" + weatherViewModel.humidityVal
          self.minmaxTemp.text = "Max/Min \n" + weatherViewModel.maxTemp + "/" +  weatherViewModel.minTemp
-        super.hideLoader()
+        self.hideLoader()
        }
   }
 
@@ -276,7 +278,7 @@ extension WeatherViewController: UITableViewDelegate, UITableViewDataSource {
 
 
 
-extension WeatherViewController: GMSAutocompleteViewControllerDelegate, CLLocationManagerDelegate {
+extension WeatherViewController: GMSAutocompleteViewControllerDelegate, CLLocationManagerDelegate, NVActivityIndicatorViewable {
     
     
     func viewController(_ viewController: GMSAutocompleteViewController, didAutocompleteWith place: GMSPlace) {
@@ -323,5 +325,13 @@ extension WeatherViewController: GMSAutocompleteViewControllerDelegate, CLLocati
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
     }
     
+    public func showLoader(message: String) {
+        let size = CGSize(width: 50, height:50)
+        startAnimating(size, message: message, type: NVActivityIndicatorType.ballSpinFadeLoader, color: UIColor.white, padding: 0.0, displayTimeThreshold: nil, minimumDisplayTime: nil)
+    }
+    
+    public func hideLoader() {
+        stopAnimating()
+    }
    
 }
