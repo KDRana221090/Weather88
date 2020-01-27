@@ -12,3 +12,5 @@ Weather88 offers:
 4)	5 Days weather forecast <br/>
 5)	Humidity , Pressure, Precipitation and wind direction <br/>
 6)	Check the weather for different city before travelling . 
+
+
