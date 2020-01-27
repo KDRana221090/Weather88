@@ -14,3 +14,16 @@ Weather88 offers:
 6)	Check the weather for different city before travelling . 
 
 
+
+
+
+
+
+
+
+# External Library used
+1) TP Keyboard for scroll view <br/>
+2) NVActivityIndicator <br/>
+3)	TweeAttributedImageTextField: a modified version of TweeText Field<br/>
+  
+
